@@ -7,6 +7,7 @@ qr = qrcode.QRCode(
     border = 5
 )
 
+#Replace charlotte link with your own link to create QR code
 data = "https://my.charlotte.edu"
 
 qr.add_data(data)
